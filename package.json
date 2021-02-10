@@ -1,11 +1,11 @@
 {
   "name": "football-dashboard",
   "version": "0.0.1",
-  "homepage": "https://svetlitskiy.github.io/football-dashboard",
+  "homepage": "http://svetlitskiy.github.io/football-dashboard",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href \"https://svetlitskiy.github.io/football-dashboard\"",
+    "build": "ng build --prod --base-href \"http://svetlitskiy.github.io/football-dashboard\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
