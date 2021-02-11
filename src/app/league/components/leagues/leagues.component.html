@@ -1,0 +1,5 @@
+<h1>League page</h1>
+
+<mat-list *ngFor="let league of leagues$ | async">
+  <mat-list-item><a [routerLink]="['/league', league.leagueId]">{{ league.name }}</a></mat-list-item>
+</mat-list>

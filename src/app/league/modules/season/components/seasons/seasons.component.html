@@ -1,0 +1,5 @@
+<h1>League page</h1>
+
+<mat-list *ngFor="let league of seasons$ | async">
+  <mat-list-item>{{ league.name }}</mat-list-item>
+</mat-list>

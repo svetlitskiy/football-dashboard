@@ -1,0 +1,9 @@
+<h1>League page</h1>
+
+
+<mat-card *ngIf="(league$ | async) as league">
+  <mat-card-title>{{ league.name }}</mat-card-title>
+  <mat-card-content>
+    {{ seasons$ | async | json }}
+  </mat-card-content>
+</mat-card>
